@@ -1,0 +1,54 @@
+main {
+  height: 100vh;
+  width: 29vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-area: "blau pale-blue pale-blue gelb gelb gelb gelb"
+    "blau pale-blue blau blau rot rot grün"
+    "blau pale-blue blau rot rot grün grün"
+    "blau grün blau gelb gelb orangen grün"
+    "grün grün rot gelb gelb orangen orangen"
+    "grün pale-blue rot rot rot pale-blue orangen"
+    "blau blau gelb pale-blue pale-blue pale-blue blau"
+    "blau gelb gelb gelb rot rot blau"
+    "grün grün pale-blue pale-blue rot rot blau"
+    "grün pale-blue pale-blue gelb gelb gelb blau"
+    "grün orangen blau blau gelb orangen orangen"
+    "orangen orangen orangen blau blau orangen orangen";
+}
+
+.box {
+  height: ‭8vh;
+  width: 4vw;
+  margin: 0;
+  box-shadow: inset -2px 2px 4px rgba(0, 0, 0, 0.541),
+    inset 2px -2px 4px rgb(255, 255, 255);
+}
+
+.blue {
+  background-color: blue;
+  border: 3px solid blue;
+}
+.pale-blue {
+  background-color: rgb(0, 225, 255);
+  border: 3px solid rgb(0, 225, 255);
+}
+
+.yellow {
+  background-color: yellow;
+  border: 3px solid yellow;
+}
+
+.red {
+  background-color: red;
+  border: 3px solid red;
+}
+.green {
+  background-color: green;
+  border: 3px solid green;
+}
+.orang {
+  background-color: orangered;
+  border: 3px solid orangered;
+}
